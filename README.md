@@ -1,5 +1,8 @@
 # mcnp_meshtal_python_processor MMPP
-A processing script to convert MCNP meshtal files to python data structures.
+A processing script to convert MCNP meshtal files to python data structures. This can be used to make pretty pictures like ...
+
+![Example plot](example_usage.png)
+
 
 ## Check out [example_usage.py](example_usage.py) and [TestMeshTally.msht](TestMeshTally.msht)
 All you need is the file `MMPP.py`. Using the module is simple:
