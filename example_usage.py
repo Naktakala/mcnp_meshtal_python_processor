@@ -33,6 +33,7 @@ levels = np.power(10, lev_exp)
 
 # ========================================== Plot
 plt.xlabel("X [cm]")
-plt.ylabel("Y [cm]")
+plt.ylabel("Z [cm]")
 plt.contourf(a,b,c,levels,cmap='jet',norm=colors.LogNorm())
 plt.show()
+# plt.savefig("example_usage.png")
